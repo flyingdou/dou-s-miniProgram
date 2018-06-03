@@ -1,0 +1,19 @@
+<!-- 页面开始 -->
+<view class='content'>
+      <view class='userInfo'>
+            <!-- 用户头像 -->
+            <view class='imageDiv'>
+                    <open-data class='image' type='userAvatarUrl' ></open-data>
+            </view>
+            <!-- 用户昵称 -->
+            <view class='userName'>
+                  <open-data type='userNickName'></open-data>
+            </view>
+      </view>
+
+      <!-- 用户点击开关，连接wifi -->
+      <view class='connectWifiDiv' bindtap='getConnect'>
+              <!-- 连接wifi的大按钮 -->
+              <view class='connectWifi' >连接wifi</view>
+      </view>
+</view>
